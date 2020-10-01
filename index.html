@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+ 
+<!-- Jumbotron -->
+    
+    <div class="jumbotron">
+      <h1 class="display-4 text-center text-white">Restaurant Finder</h1>
+      <p class="lead text-center text-white">Find a restaurant in your area. Click below to use your current location and select a restaurant category.</p>
+      <hr class="my-4">
+
+<!-- Current Location Button -->
+
+    <div class="row">
+        <div class ="col-12">
+
+            <div class="row d-flex justify-content-center">
+                <button class="curLocation btn btn-primary" href="#" type="button">
+                <i class="fas fa-map-marker-alt"></i> &nbsp;Use my Current Location</button>
+            </div>
+
+            <br>
+
+<!-- "And" -->
+
+            <div class="row d-flex justify-content-center">
+              <p class="text-center">and</p>
+            </div>
+
+<!-- Dropdown Selection -->
+
+            <div class="row d-flex justify-content-center">
+                <select id="catagories" class="custom-select" style="width:200px;"> 
+                    <option>Select a Category...</option>
+                    <option>Breakfast & Brunch</option>
+                    <option>Caribbean</option>
+                    <option>Chinese</option>
+                    <option>Indian</option>
+                    <option>Italian</option>
+                    <option>Japanese</option>
+                    <option>Mediterranean</option>
+                    <option>Mexican</option>
+                    <option>Middle Eastern</option>
+                    <option>Moroccan</option>
+                    <option>Vegan</option>
+                    <option>Vegetarian</option>
+                </select> 
+
+<!-- Search Button -->
+
+                <a id="searchBtn" class="btn btn-primary" href="#" role="button">Search</a>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+<!-- Results -->
+<div class="results-container">
+
+    <h5>Results</h5>
+    <br>
+
+    <div class="card-deck">
+    <div class="row">
+        <div class="card">
+            <img class="card-img-top" src="https://via.placeholder.com/504x200" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Restaurant Name</h5>
+                <p class="categories"><small class="text-muted">Category1, Category2, Category3</small></p>
+                <p class="address">Address</p>
+                <p class="phone">Phone Number</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="https://via.placeholder.com/504x200" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Restaurant Name</h5>
+                <p class="categories"><small class="text-muted">Category1, Category2, Category3</small></p>
+                <p class="address">Address</p>
+                <p class="phone">Phone Number</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="https://via.placeholder.com/504x200" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Restaurant Name</h5>
+                <p class="categories"><small class="text-muted">Category1, Category2, Category3</small></p>
+                <p class="address">Address</p>
+                <p class="phone">Phone Number</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="card">
+            <img class="card-img-top" src="https://via.placeholder.com/504x200" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Restaurant Name</h5>
+                <p class="categories"><small class="text-muted">Category1, Category2, Category3</small></p>
+                <p class="address">Address</p>
+                <p class="phone">Phone Number</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="https://via.placeholder.com/504x200" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Restaurant Name</h5>
+                <p class="categories"><small class="text-muted">Category1, Category2, Category3</small></p>
+                <p class="address">Address</p>
+                <p class="phone">Phone Number</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="https://via.placeholder.com/504x200" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Restaurant Name</h5>
+                <p class="categories"><small class="text-muted">Category1, Category2, Category3</small></p>
+                <p class="address">Address</p>
+                <p class="phone">Phone Number</p>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+<br>
+<!-- Footer -->
+
+<footer class="page-footer font-small blue pt-4">
+
+  <div class="footer-copyright text-center py-3">© 2020 Copyright: "The Dangerous Debuggers"
+  </div>
+
+</footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5fbb9ffb93.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html> 

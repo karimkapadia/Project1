@@ -1,0 +1,15 @@
+.jumbotron {
+    color:white;
+    padding: 30px;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190222/ourmid/pngtree-crayfish-food-food-condiment-black-horizontal-banner-goodsseasoningblackhorizontal-bannerdelicious-image_50376.jpg");
+    background-size: cover;
+  }
+  .results-container {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+  }
+  
+  footer {
+      background-color: rgba(16, 17, 19, 0.925);
+      color: white;
+  }
