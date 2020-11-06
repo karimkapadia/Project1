@@ -52,10 +52,10 @@ No License is required. You are free to use and modify this program as desired.
 ![HTML](https://img.shields.io/badge/HTML-100%25-orange)
 ![HTML](https://img.shields.io/badge/CSS-100%25-yellowgreen)
 
-![image](Images\wfd1.jpg)
-![image](Images\wfd2.jpg)
-![image](Images\wfd3.jpg)
-![image](Images\wfd4.jpg)
+![image](https://github.com/ryanbrowne360/Project1/blob/master/Images/wfd1.jpg)
+![image](https://github.com/ryanbrowne360/Project1/blob/master/Images/wfd2.jpg)
+![image](https://github.com/ryanbrowne360/Project1/blob/master/Images/wfd3.jpg)
+![image](https://github.com/ryanbrowne360/Project1/blob/master/Images/wfd4.jpg)
 
 **Future Developments:**
 
