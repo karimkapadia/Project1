@@ -52,7 +52,10 @@ No License is required. You are free to use and modify this program as desired.
 ![HTML](https://img.shields.io/badge/HTML-100%25-orange)
 ![HTML](https://img.shields.io/badge/CSS-100%25-yellowgreen)
 
-![image](https://github.com/ryanbrowne360/Homework4/blob/main/Screenshot%202020-11-01%20132018.png)
+![image](Images\wfd1.jpg)
+![image](Images\wfd2.jpg)
+![image](Images\wfd3.jpg)
+![image](Images\wfd4.jpg)
 
 **Future Developments:**
 
